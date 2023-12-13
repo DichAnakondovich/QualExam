@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Управление заявками</title>
+</head>
+<body>
+  <h1>Управление заявками</h1>
+
+  <form id="requestForm">
+    <label for="requestNumber">Номер заявки:</label>
+    <input type="text" id="requestNumber" required>
+    <br>
+    <label for="requestDate">Дата добавления:</label>
+    <input type="date" id="requestDate" required>
+    <br>
+    <label for="requestDescription">Описание проблемы:</label>
+    <textarea id="requestDescription" required></textarea>
+    <br>
+    <label for="requestStatus">Статус заявки:</label>
+    <select id="requestStatus" required>
+      <option value="в ожидании">В ожидании</option>
+      <option value="в работе">В работе</option>
+      <option value="выполнено">Выполнено</option>
+    </select>
+    <br>
+    <button class="button_add" type="submit">Добавить заявку</button>
+  </form>
+
+  <table id="requestTable">
+    <tr>
+      <th>Номер заявки</th>
+      <th>Дата добавления</th>
+      <th>Описание проблемы</th>
+      <th>Статус заявки</th>
+      <th>Действия</th>
+    </tr>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

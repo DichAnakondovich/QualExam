@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+  }
+  
+form {
+    margin-bottom: 50px;
+  }
+  
+form label, form input, form textarea, form select, form button {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+.button_add {
+    background-color: #92ed87;
+}
+  
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+th, td {
+    padding: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
